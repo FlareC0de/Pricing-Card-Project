@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #fff6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 460px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.07);
+    position: relative;
+    border: 1px smooth rgb(151, 107, 255);
+}
+.container .title{
+    font-size: 2rem;
+    color: #333;
+}
+.container h2{
+    text-align: center;
+    margin: 20px 0 20px ;
+}
+.container h3{
+    text-align: center;
+}
+.container h3 span{
+    font-size: 17px;
+}
+.container h3.price{
+    font-size: 30px;
+    margin: 30px 0 30px;
+}
+.container .price{
+    color: rgb(151, 107, 255);
+    font-size: 1.1rem;
+    margin: 20px 0 20px;
+}
+.container .offer{
+    display: block;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+a{
+text-align: center;    
+}
+.sub-button{
+    display: inline-block;
+    padding: 15px 0;
+    background-color: rgb(151, 107, 255);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.6s ease;
+    box-shadow: 0 0 15px rgba(0,0,0,0.04);
+}
+.sub-button:hover{
+    background: #be4dff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.ribbon-wrap{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    pointer-events: none;
+}
+.ribbon{
+    width: 230px;
+    font-size: 0.918rem;
+    text-align: center;
+    padding: 8px 0;
+    background: #ea4dff;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17px;
+    top: 29%;
+}
